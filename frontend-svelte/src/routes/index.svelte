@@ -42,7 +42,7 @@
     }
 
    .paragraph {
-        border: 8px solid #A48AA8;
+        border: 6px solid #A48AA8;
         margin-left: 200px;
         margin-right: 200px;
         margin: auto;

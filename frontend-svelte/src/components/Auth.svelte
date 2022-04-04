@@ -95,22 +95,11 @@
     }
 </script>
 
-<style>
-    .auth-box {
-        width: 40%;
-        margin: 1rem auto;
-    }
 
-    @media (max-width: 600px) {
-        .auth-box {
-            width: 80%;
-        }
-    }
-</style>
 
 <div class="w3-container">
     <div class="w3-card-4 w3-border w3-border-black auth-box">
-        <div class="w3-bar w3-border-bottom w3-border-gray">
+        <div>
             <button
                 style="width: 50%"
                 on:click={() => (authMode = 'login')}
@@ -128,30 +117,25 @@
                     {#if loginError}
                         <Error message={loginError} />
                     {/if}
-                    <div class="w3-section">
-                        <label for="email">Email</label>
+                    <div>
+                        <label for="email"></label>
                         <input
                             type="email"
                             bind:value={email}
                             placeholder="Enter your email"
-                            id="email"
-                            class="w3-input w3-border w3-border-red" />
+                            id="email"/>
                     </div>
-                    <div class="w3-section">
-                        <label for="password">Password</label>
+                    <div>
+                        <label for="password"></label>
                         <input
                             type="password"
                             bind:value={password}
                             placeholder="Enter your password"
-                            id="password"
-                            class="w3-input w3-border w3-border-black" />
+                            id="password"/>
                     </div>
-                    <div class="w3-section">
-                        <button
-                            class="w3-button w3-blue w3-hover-blue w3-border w3-border-blue">Login</button>
-                        <button
-                            class="w3-button w3-white w3-hover-light-gray w3-border w3-border-black"
-                            on:click={() => (authMode = 'register')}>Register</button>
+                    <div>
+                        <button>Login</button>
+                        <button on:click={() => (authMode = 'register')}>Register</button>
                     </div>
                 </form>
             {:else}
@@ -159,51 +143,63 @@
                     {#if registerError}
                         <Error message={registerError} />
                     {/if}
-                    <div class="w3-section">
-                        <label for="username">Username</label>
+                    <div>
+                        <label for="username"></label>
                         <input
                             type="text"
                             bind:value={username}
                             placeholder="Enter a username"
-                            id="username"
-                            class="w3-input w3-border w3-border-black" />
+                            id="username"/>
                     </div>
-                    <div class="w3-section">
-                        <label for="email">Email</label>
+                    <div>
+                        <label for="email"></label>
                         <input
                             type="email"
                             bind:value={email}
                             placeholder="Enter your email"
-                            id="email"
-                            class="w3-input w3-border w3-border-black" />
+                            id="email"/>
                     </div>
-                    <div class="w3-section">
-                        <label for="password">Password</label>
+                    <div>
+                        <label for="password"></label>
                         <input
                             type="password"
                             bind:value={password}
                             placeholder="Enter a password"
-                            id="password"
-                            class="w3-input w3-border w3-border-black" />
+                            id="password"/>
                     </div>
-                    <div class="w3-section">
-                        <label for="cpassword">Confirm Password</label>
+                    <div>
+                        <label for="cpassword"></label>
                         <input
                             type="password"
                             bind:value={cpassword}
                             placeholder="Re-enter that password"
-                            id="cpassword"
-                            class="w3-input w3-border w3-border-black" />
+                            id="cpassword"/>
                     </div>
                     <div class="w3-section">
-                        <button
-                            class="w3-button w3-blue w3-hover-blue w3-border w3-border-blue">Register</button>
-                        <button
-                            class="w3-button w3-white w3-hover-light-gray w3-border w3-border-black"
-                            on:click={() => (authMode = 'login')}>Login</button>
+                        <button>Register</button>
+                        <button on:click={() => (authMode = 'login')}>Login</button>
                     </div>
                 </form>
             {/if}
         </div>
     </div>
 </div>
+
+<style>
+
+    input {
+        padding: 10px;
+    }
+    .auth-box {
+        width: 40%;
+        margin: 1rem auto;
+        text-align: center;
+    }
+
+    @media (max-width: 600px) {
+        .auth-box {
+            width: 80%;
+            
+        }
+    }
+</style>

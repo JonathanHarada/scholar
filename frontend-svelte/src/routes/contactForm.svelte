@@ -4,8 +4,11 @@
 
     
         <h1>Please Contact Us with any questions!</h1>
+        <div>
+            <p>If you have any suggestions for scholarships, please include the information as well as a link to the college site.</p>
+        </div>
     
-    <div>
+    <div class="form">
         
     <!-- Make sure you don't change the form action-->
     <form action="https://api.staticforms.xyz/submit" method="post">
@@ -28,19 +31,45 @@
         text-align: center;
     }
     
-    form {
+    .form {
         text-align: center;
+        display: list-item;
+        margin: auto;
         
     }
 
     input[type=text] {
-        width: 25%;
+        margin: auto;
+        width: 50%;
         padding: 12px 20px;
         margin: 8px 10;
         display: list-item;
         border: 4px double #39A9DB;
         border-radius: 8px;
         box-sizing: border-box;
+    }
+    textarea {
+        margin: auto;
+        width: 50%;
+        height: 300px;
+        padding: 12px 20px;
+        margin: 8px 10;
+        display: list-item;
+        border: 4px double #39A9DB;
+        border-radius: 8px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        margin-top: 10px;
+        font-size: large;
+    }
+    p {
+        text-align: center;
+        columns: 1;
+        margin: 10px;
+        line-height: 2.0;
+        font-size: x-large;
     }
 
 </style>
