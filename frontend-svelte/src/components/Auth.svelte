@@ -134,8 +134,8 @@
                             id="password"/>
                     </div>
                     <div>
-                        <button>Login</button>
-                        <button on:click={() => (authMode = 'register')}>Register</button>
+                        <button class="push">Login</button>
+                        <button class="push" on:click={() => (authMode = 'register')}>Register</button>
                     </div>
                 </form>
             {:else}
@@ -176,8 +176,8 @@
                             id="cpassword"/>
                     </div>
                     <div class="w3-section">
-                        <button>Register</button>
-                        <button on:click={() => (authMode = 'login')}>Login</button>
+                        <button class="push">Register</button>
+                        <button class="push" on:click={() => (authMode = 'login')}>Login</button>
                     </div>
                 </form>
             {/if}
@@ -201,5 +201,8 @@
             width: 80%;
             
         }
+    }
+    .push {
+        margin-bottom: 60px;
     }
 </style>

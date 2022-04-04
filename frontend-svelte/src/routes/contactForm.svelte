@@ -62,6 +62,7 @@
 
     input[type=submit] {
         margin-top: 10px;
+        margin-bottom: 50px;
         font-size: large;
     }
     p {

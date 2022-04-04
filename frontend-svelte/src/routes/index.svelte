@@ -30,7 +30,7 @@
 </div>
 <h2>Donate</h2>
 <div class="paragraph">
-    <p>Any donation helps with cost of hosting....
+    <p class="bottom">Any donation helps with cost of hosting....
         <button><a href="https://www.paypal.com/donate/?hosted_button_id=N32XCFC7MVVJ8">Paypal</a></button>
     </p>
     
@@ -43,14 +43,12 @@
 
    .paragraph {
         border: 6px solid #A48AA8;
-        margin-left: 200px;
-        margin-right: 200px;
         margin: auto;
     }
     p {
         text-align: center;
         columns: 1;
-        margin: 10px;
+        margin: 60px;
         line-height: 2.0;
         font-size: x-large;
     }
@@ -68,4 +66,5 @@
     button:hover {
         background-color: black;
     }
+    
 </style>

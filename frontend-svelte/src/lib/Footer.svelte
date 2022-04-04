@@ -1,16 +1,20 @@
-<div>
-    <h4>
-    Copyright @2022 SMB Web Expressions
-    </h4>
+
+
+
+<div class="footer">
+    <footer>Copyright @2022 SMB Web Expressions</footer>
 </div>
 
 
 <style>
-    h4 {
+    .footer {
         text-align: center;
         color: black;
         background-color: #A48AA8;
-        padding: 20px;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        padding: 10px;
     }
     
 </style>
