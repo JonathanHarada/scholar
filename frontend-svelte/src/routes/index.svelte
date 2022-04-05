@@ -2,7 +2,6 @@
     import { onMount } from "svelte";
     import { getToken } from "../auth";
     import router from "page";
-    import grad from "../lib/assets/grad.png"
 
     export const queryString = {};
     export const params = {};

@@ -3,7 +3,7 @@
 </script>
 
 <div>
-    <h1>Remember, this is just a resource location!</h1>
+    <h1>Remember, this website is a resource location!</h1>
     <p>All scholarships are awarded from outside sources, some are through individual schools only, but most are awarded for the New Mexico school of your choice. If you have any feedback regarding scholarships availability, or information being outdated, please use our contact form to sumbit those concerns.</p>
 </div>
 
