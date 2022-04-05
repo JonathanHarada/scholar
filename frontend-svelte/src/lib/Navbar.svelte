@@ -17,7 +17,7 @@
                  
         {:else}
             <a href="/">Home</a>
-            <a  href="/searchcard">Start Searching</a>
+            <a  href="/searchcard">Scholarships</a>
             <a  href="/contactForm">Contact Us</a>
             <a  href="/resources">Resources</a>
             <a  href="/login">Login/Register</a>
