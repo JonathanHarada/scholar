@@ -1,6 +1,6 @@
 <script context="module">
     export async function load({fetch}) {
-        const res = await fetch('http://localhost:1337/api/scholarships?_limit=100')
+        const res = await fetch('http://localhost:1337/api/scholarships')
         const scholarships = await res.json()
         
 
@@ -40,7 +40,7 @@ import { set_attributes } from "svelte/internal"
 </script>
 <div class="instructions">
     <h1>Start Searching!</h1>
-    <p>You can either browse all the scholarships, or use key words, such as the school, GPA required, Amount given, or required ethnicity for more specific results. Popular searches include: Native American - Hispanic - Women - Military - General</p>
+    <p>You can either browse all the scholarships, or use keywords, such as the school, GPA required, Amount given, or required ethnicity for more specific results. Popular searches include: Native American - Hispanic - Women - Military - General</p>
 </div>
 
 <div class="scholarships">
@@ -50,7 +50,7 @@ import { set_attributes } from "svelte/internal"
             <li>
                 <h2>{scholarship.attributes.name}</h2>
                 <p>{scholarship.attributes.description}</p>
-                <h5><a href={scholarship.attributes.link}>Visit School Website</a></h5>
+                <h5><a href={scholarship.attributes.link}>Visit Scholarship Website</a></h5>
             </li>
         {/each}
     </ul>
@@ -79,6 +79,7 @@ import { set_attributes } from "svelte/internal"
     }
     .box {
         font-size: xx-large;
+        margin-bottom: 50px;
     }
    
 </style>

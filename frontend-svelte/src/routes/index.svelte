@@ -22,7 +22,7 @@
 </div>
 <h2>How to use</h2>
 <div class="paragraph">
-    <p>It's simple! Click on the start searching button, then type a keyword into the search box. That's it! You can now search for scholarships based on school, GPA, nationality, or even general. Make sure to create an account for updates on future features!</p>
+    <p>It's simple! Click on the Scholarships button, then type a keyword into the search box. That's it! You can now search for scholarships based on school, GPA, nationality, or even general. Make sure to create an account for updates on future features!</p>
 </div>
 <h2>Support Us</h2>
 <div class="paragraph">
@@ -30,7 +30,7 @@
 </div>
 <h2>Donate</h2>
 <div class="paragraph">
-    <p class="bottom">Any donation helps with cost of hosting....
+    <p class="bottom">This website is completely free, any donation helps with cost of hosting....
         <button><a href="https://www.paypal.com/donate/?hosted_button_id=N32XCFC7MVVJ8">Paypal</a></button>
     </p>
     
