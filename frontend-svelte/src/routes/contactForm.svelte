@@ -5,7 +5,7 @@
     
         <h1>Please Contact Us with any questions!</h1>
         <div>
-            <p>If you have any suggestions for scholarships, please include the information as well as a link to the college site.</p>
+            <p>If you have any suggestions for scholarships, please include the information as well as a link to the scholarship.</p>
         </div>
     
     <div class="form">
