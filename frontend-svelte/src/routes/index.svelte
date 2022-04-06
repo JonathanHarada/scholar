@@ -4,6 +4,9 @@
     import router from "page";
     import logo1 from "$lib/assets/unmlogo.png"
     import logo2 from "$lib/assets/nmsulogo.png"
+    import logo3 from "$lib/assets/logo3.png"
+    import logo4 from "$lib/assets/logo4.png"
+    import logo5 from "$lib/assets/logo5.png"
 
     export const queryString = {};
     export const params = {};
@@ -20,6 +23,9 @@
 <div>
     <img alt="Unm Logo" src={logo1} />
     <img alt="NMSU Logo" src={logo2} />
+    <img alt="ENMU Logo" src={logo3} />
+    <img alt="Highlands Logo" src={logo4} />
+    <img alt="CNM Logo" src={logo5} />
 </div>
 
 <h2>About Us</h2>
@@ -28,7 +34,7 @@
 </div>
 <h2>How to use</h2>
 <div class="paragraph">
-    <p>It's simple! Click on the Scholarships button, then type a keyword into the search box. That's it! You can now search for scholarships based on school, GPA, nationality, or even general. Make sure to create an account for updates on future features!</p>
+    <p>It's simple! Click on the Scholarships button, then type a keyword into the search box. That's it! You can now search for scholarships based on school, GPA, nationality, or any keyword that might be included in the description. Make sure to create an account for updates on future features!</p>
 </div>
 <h2>Support Us</h2>
 <div class="paragraph">
@@ -76,6 +82,6 @@
     img {
         height: 120px;
         width: 120px;
-        margin: 30px;
+        margin: 60px;
     }
 </style>
