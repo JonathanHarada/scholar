@@ -2,6 +2,8 @@
     import { onMount } from "svelte";
     import { getToken } from "../auth";
     import router from "page";
+    import logo1 from "$lib/assets/unmlogo.png"
+    import logo2 from "$lib/assets/nmsulogo.png"
 
     export const queryString = {};
     export const params = {};
@@ -13,6 +15,11 @@
 
 <div class="hero">
     <h1 class="landing">Begin your journey to improve your education!</h1>
+</div>
+
+<div>
+    <img alt="Unm Logo" src={logo1} />
+    <img alt="NMSU Logo" src={logo2} />
 </div>
 
 <h2>About Us</h2>
@@ -65,5 +72,10 @@
     button:hover {
         background-color: black;
     }
-    
+
+    img {
+        height: 120px;
+        width: 120px;
+        margin: 30px;
+    }
 </style>
