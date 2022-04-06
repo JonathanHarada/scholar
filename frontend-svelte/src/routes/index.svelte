@@ -20,7 +20,7 @@
     <h1 class="landing">Begin your journey to improve your education!</h1>
 </div>
 
-<div>
+<div class="pics">
     <img alt="Unm Logo" src={logo1} />
     <img alt="NMSU Logo" src={logo2} />
     <img alt="ENMU Logo" src={logo3} />
@@ -82,6 +82,11 @@
     img {
         height: 120px;
         width: 120px;
-        margin: 60px;
+        margin: auto;
+        padding: 50px;
+    }
+
+    .pics {
+        text-align: center;
     }
 </style>

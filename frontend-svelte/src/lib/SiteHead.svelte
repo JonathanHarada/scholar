@@ -19,8 +19,8 @@
         
     }
     img {
-        height: 130px;
-        width: 130px;
+        height: 150px;
+        width: 150px;
     }
     div {
         text-align: center;
