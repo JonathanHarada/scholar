@@ -20,7 +20,7 @@
         <input placeholder="Subject" type="text" name="subject"> 
         <textarea placeholder="Message" name="message"></textarea> 
         <input type="hidden" name="replyTo" value="@"> 
-        <input type="hidden" name="redirectTo" value="http://localhost:3000/success"> 
+        <input type="hidden" name="redirectTo" value="https://www.nmscholarshipfinder.com/success"> 
         <input type="submit" value="Submit" />
     </form>
 </div>
