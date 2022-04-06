@@ -32,7 +32,7 @@
         loginError = null;
 
         axios
-            .post("http://localhost:1337/api/auth/local", {
+            .post("https://radiant-waters-36864.herokuapp.com/api/auth/local", {
                 identifier: email,
                 password,
             })
@@ -71,7 +71,7 @@
         registerError = null;
 
         axios
-            .post("http://localhost:1337/api/auth/local/register", {
+            .post("https://radiant-waters-36864.herokuapp.com/api/auth/local/register", {
                 
                 username,
                 email,

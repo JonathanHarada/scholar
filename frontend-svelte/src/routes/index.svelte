@@ -25,7 +25,7 @@
 </div>
 <h2>Support Us</h2>
 <div class="paragraph">
-    <p>We currently have over 150 scholarships that apply to schools all over New Mexico! We have also added special programs offered through career one stops. However, to ensure the accuracy of each scholarship, the data is all seeded by hand. If you notice any scholarships that you feel should be added, please <a href="/contactForm">Contact Us</a>. Fill out the contact form with all of the available information and a link to verify, and the scholarship will get added. If you would like to be added as a moderator to help expand the number of scholarships listed, please reach out. We will be looking for volunteers willing to help add scholarships.</p>
+    <p>We currently have over 150 scholarships that apply to schools all over New Mexico! We have also added special programs offered through career one stops. However, to ensure the accuracy of each scholarship, the data is all seeded by hand. If you notice any scholarships that you feel should be added, please <a href="/contactForm">Contact Us</a>. Fill out the contact form with all of the available information and a link to verify, and the scholarship will get added. If you would like to be added as a moderator to help expand the number of scholarships listed, please reach out. We will be looking for volunteers willing to help.</p>
 </div>
 <h2>Donate</h2>
 <div class="paragraph">

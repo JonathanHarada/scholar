@@ -18,7 +18,7 @@
         }
     
             // Fetch the user from strapi
-            const res = await fetch('http://localhost:1337/auth/me', {
+            const res = await fetch('https://radiant-waters-36864.herokuapp.com/api/auth/me', {
                 headers: { Authorization: `Bearer ${localStorage.getItem('token')}` }
             });
             const user: User = await res.json();

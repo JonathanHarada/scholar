@@ -1,6 +1,6 @@
 <script context="module">
     export async function load({fetch}) {
-        const res = await fetch('http://localhost:1337/api/scholarships')
+        const res = await fetch('https://radiant-waters-36864.herokuapp.com/api/scholarships')
         const scholarships = await res.json()
         
 
@@ -40,7 +40,7 @@ import { set_attributes } from "svelte/internal"
 </script>
 <div class="instructions">
     <h1>Start Searching!</h1>
-    <p>You can either browse all the scholarships, or use keywords, such as the school, GPA required, Amount given, or required ethnicity for more specific results. Popular searches include: Native American - Hispanic - Women - Military - General</p>
+    <p>You can either browse all the scholarships, or use keywords, such as the school, GPA required, Amount given, or required ethnicity for more specific results. Popular searches include: Native American - Hispanic - Women - Military - Undergraduate - Science</p>
 </div>
 
 <div class="scholarships">

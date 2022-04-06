@@ -1,6 +1,6 @@
 <script context="module">
     export async function load({fetch}) {
-        const res = await fetch('http://localhost:1337/api/categories[id]')
+        const res = await fetch('https://radiant-waters-36864.herokuapp.com')
         const categories = await res.json()
         
 
